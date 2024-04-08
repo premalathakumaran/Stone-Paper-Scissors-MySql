@@ -1,7 +1,7 @@
 
 // app.js
-const dotenv = require('dotenv').config();
-//require('dotenv').config(); // Load environment variables from .env file
+
+require('dotenv').config(); // Load environment variables from .env file
 const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
